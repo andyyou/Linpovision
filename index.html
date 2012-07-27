@@ -9,7 +9,13 @@
 		<link href="css/bootstrap.css" rel="stylesheet">       
 		<style>
 		.container{
-			margin-top: 200px;
+			position: absolute;
+			top: 35%;
+			left:18%;
+			z-index: 999;
+		}
+		#c{
+			z-index: 0;
 		}
 		.thumbnails li h5{
 			margin: 5px auto;
@@ -25,13 +31,13 @@
 		<ul class="thumbnails">
 		<li class="span3"></li>
   	<li class="span3">
-    <a href="#" class="thumbnail">
+    <a href="http://www.citygolfasia.com" class="thumbnail">
 			<img src="img/logo_foresight.jpg" alt="">
 		</a>
 		<h5 class="label label-info">城市高爾夫</h5>
   	</li>
 		<li class="span3">
-		<a href="#" class="thumbnail">
+		<a href="main.html" class="thumbnail">
 			<img src="img/logo_linpo.jpg" alt="">
 		</a>
 		<h5 class="label label-info">盛泰光電</h5>
@@ -39,6 +45,7 @@
 		</ul>
 		</div>
 	</div>
+	<canvas id="c"></canvas>
 	<script src="js/warpfield.js"></script>
 </body>
 </html>
